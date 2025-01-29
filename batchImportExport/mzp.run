@@ -1,0 +1,9 @@
+name "BatchImporter"
+version 1.0
+
+treeMove "tempCPV" to "$temp"
+
+run "cpvBatchImporterInstall.ms"
+drop "cpvBatchImporterInstall.ms"
+
+clear temp
